@@ -14,7 +14,8 @@ A high-performance tool to prerender entire websites from sitemaps for static ho
 ## Quick Start
 
 ```bash
-npm install
+npm i
+npm run playwright:install
 ./sitemap-prerender.ts --sitemap https://example.com/sitemap.xml
 ```
 
