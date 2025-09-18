@@ -1,0 +1,19 @@
+{
+  "name": "sitemap-prerender",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "playwright:install": "playwright install --with-deps",
+    "prerender:winny": "tsx sitemap-prerender.ts --sitemap https://winny.com/sitemap.xml"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "fast-xml-parser": "^4.4.0",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.47.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.2"
+  }
+}
